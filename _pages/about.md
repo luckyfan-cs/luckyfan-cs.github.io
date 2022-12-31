@@ -25,7 +25,7 @@ Education and Experience
 * 2022: Graduate student at HKUST(GZ)
 * 2021: Intern at HKUST(GZ)
 * 2020: Intern at MSRA  
-* 2020: B.E. from UESTC   
+* 2020: B.S. from UESTC   
 * 2019: Research visit at UBC  
 
 
@@ -34,4 +34,4 @@ Awards, Acknowledgements, and Services
 * Reviewer for ITS, Transactions On SMC: Systems, Physica A, TFS
 * Outstanding Undergraduate Thesis Award
 * Outstanding Undergraduate Student
-* Excellent Student Scholarship
+* Excellent Student Scholarship (2017-2019)
