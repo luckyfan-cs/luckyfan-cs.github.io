@@ -25,7 +25,7 @@ Education and Experience
 ======
 * 2022: Graduate student at HKUST(GZ)
 * 2021: Intern at HKUST(GZ)
-* 2021: Intern at MSRA  
+* 2020: Intern at MSRA  
 * 2020: B.E. from UESTC   
 * 2019: Research visit at UBC  
 
