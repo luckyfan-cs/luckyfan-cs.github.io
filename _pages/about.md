@@ -10,7 +10,7 @@ redirect_from:
 
 I am Fan LIU, a research student at HKUST(GZ). My current interest is in adversarial traffic forecasting and adversarial learning, etc.
 
-Email: liufanuest AT DOT com
+Email: liufanuestc AT DOT com
 
 Works
 ======
