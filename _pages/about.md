@@ -31,7 +31,7 @@ Education and Experience
 
 Awards, Acknowledgements, and Services
 ------
-* Reviewer for KDD (2023), ITS, Transactions On SMC: Systems, Physica A, TFS, TII
+* Reviewer for ITS, Transactions On SMC: Systems, Physica A, TFS, TII
 * Outstanding Undergraduate Thesis Award
 * Outstanding Undergraduate Student
 * Excellent Student Scholarship (2017-2019)
