@@ -14,7 +14,7 @@ Email: liufanuestc AT DOT com
 
 Works
 ======
-* [NeurIPS] **Fan LIU**, Hao Liu, Wenzhao Jiang, Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models, NeurIPS, 2022.
+* [NeurIPS] **Fan LIU**, Hao Liu, Wenzhao Jiang, Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models, NeurIPS, 2022. [Blog](https://hackmd.io/@tungsomot/H1CtgXDEo)
 * [ICMLW] **Fan LIU**, Shuyu Zhao, Xuelong Dai, Bin Xiao, Long-term Cross Adversarial Training: A Robust
 Meta-learning Method for Few-shot Classification Tasks, ICMLW, 2021.
 * [TFS] **Fan LIU** and Yong Deng, Determine the number of unknown targets in Open World based on
