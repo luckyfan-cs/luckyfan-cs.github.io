@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Fan LIU, a research student at HKUST(GZ). My current interest is in adversarial traffic forecasting and adversarial learning, etc.
+I am Fan LIU, a research student at HKUST(GZ). My current interest is in federated learning, adversarial traffic forecasting and adversarial learning, etc.
 
 Email: liufanuestc AT DOT com
 
@@ -34,4 +34,4 @@ Awards, Acknowledgements, and Services
 * Reviewer for KDD 2023, ITS, Transactions On SMC: Systems, Physica A, TFS, TII
 * Outstanding Undergraduate Thesis Award
 * Outstanding Undergraduate Student
-* Excellent Student Scholarship (2017-2019)
+* Excellent Student Scholarship (2017-2020)
