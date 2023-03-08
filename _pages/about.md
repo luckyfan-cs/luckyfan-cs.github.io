@@ -24,7 +24,7 @@ Education and Experience
 ======
 * 2022: Graduate student at HKUST(GZ)
 * 2021: Intern at HKUST(GZ)
-* 2020: Intern at MSRA  
+* 2020: Intern at MSRA ([StarBridge Program](https://www.msra.cn/zh-cn/connections/academic-programs/xingqiao)) 
 * 2020: B.S. from UESTC   
 * 2019: Research visit at UBC  
 
