@@ -31,7 +31,8 @@ Education and Experience
 
 Awards, Acknowledgements, and Services
 ------
-* Reviewer for KDD 2023, ITS, Transactions On SMC: Systems, Physica A, TFS, TII
+* Reviewer for Conference: NeurIPS 2023, KDD 2023 
+* Reviewer for Journal: ITS, Transactions On SMC: Systems, Physica A, TFS, TII
 * Outstanding Undergraduate Thesis Award
 * Outstanding Undergraduate Student
 * Excellent Student Scholarship (2017-2020)
