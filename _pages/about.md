@@ -34,6 +34,7 @@ Awards, Acknowledgements, and Services
 ------
 * Reviewer for Conference: NeurIPS 2023, KDD 2023 
 * Reviewer for Journal: ITS, Transactions On SMC: Systems, Physica A, TFS, TII
+* RBM Student Travel Grant (2023)
 * Outstanding Undergraduate Thesis Award
 * Outstanding Undergraduate Student
 * Excellent Student Scholarship (2017-2020)
