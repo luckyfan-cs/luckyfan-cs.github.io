@@ -19,7 +19,7 @@ Works
 * [ICMLW] **Fan LIU**, Shuyu Zhao, Xuelong Dai, Bin Xiao, Long-term Cross Adversarial Training: A Robust
 Meta-learning Method for Few-shot Classification Tasks, ICMLW, 2021.
 * [TFS] **Fan LIU** and Yong Deng, Determine the number of unknown targets in Open World based on
-Elbow method, TFS, 2020.
+Elbow method, TFS, 2020. (**ESI Hot Paper**)
 
 Education and Experience
 ======
