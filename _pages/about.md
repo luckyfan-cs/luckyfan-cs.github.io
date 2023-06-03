@@ -32,7 +32,7 @@ Education and Experience
 
 Awards, Acknowledgements, and Services
 ------
-* Reviewer for Conference: NeurIPS 2023, KDD 2023 
+* Reviewer for Conference: NeurIPS 2023, KDD 2023, AdvML-Frontiers (ICML 2023 Workshop)
 * Reviewer for Journal: ITS, Transactions On SMC: Systems, Physica A, TFS, TII
 * RBM Student Travel Grant (2023)
 * Outstanding Undergraduate Thesis Award
