@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am Fan LIU, a research student at HKUST(GZ). My current interest is in federated learning, adversarial traffic forecasting and adversarial learning, etc.
+I am Fan LIU, a research student at HKUST(GZ). My current interest is in federated learning, adversarial traffic forecasting, adversarial learning, etc. My research papers  are published in NeurIPS/KDD/ICMLW/TFS etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
 
 Email: liufanuestc AT DOT com
+
+
 
 Recent Works
 ======
