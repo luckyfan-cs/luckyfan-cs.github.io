@@ -16,13 +16,12 @@ Email: liufanuestc AT DOT com
 
 Recent Works
 ======
+* [Arxiv] Zhao Xu, **Fan LIU**, Hao Liu, Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs, Arxiv, 2024. [[pdf](http://arxiv.org/abs/2406.09324)], [[Code](https://github.com/usail-hkust/Bag_of_Tricks_for_LLM_Jailbreaking)]
+* [Arxiv] **Fan LIU**, Zhao Xu, Hao Liu, Adversarial Tuning: Defending Against Jailbreak Attacks for LLMs, Arxiv, 2024. [[pdf](https://arxiv.org/pdf/2406.06622)]
 * [Arxiv] **Fan LIU**, Siqi Lai, Yansong Ning, Hao Liu, Bkd-FedGNN: A Benchmark for Classification Backdoor Attacks on Federated Graph Neural Network, Arxiv, 2023. [[pdf](https://arxiv.org/abs/2306.10351)], [[Code](https://github.com/usail-hkust/BkdFedGCN)]
 * [KDD] **Fan LIU**, Weijia Zhang, Hao Liu, Robust Spatiotemporal Traffic Forecasting with Reinforced Dynamic Adversarial Training, KDD, 2023.
 * [NeurIPS] **Fan LIU**, Hao Liu, Wenzhao Jiang, Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models, NeurIPS, 2022. [[Blog](https://hackmd.io/@tungsomot/H1CtgXDEo)], [[Code](https://github.com/usail-hkust/Adv-ST)]
-* [ICMLW] **Fan LIU**, Shuyu Zhao, Xuelong Dai, Bin Xiao, Long-term Cross Adversarial Training: A Robust
-Meta-learning Method for Few-shot Classification Tasks, ICMLW, 2021.
-* [TFS] **Fan LIU** and Yong Deng, Determine the number of unknown targets in Open World based on
-Elbow method, TFS, 2020. (**ESI Hot Paper**)
+
 
 Education and Experience
 ======
