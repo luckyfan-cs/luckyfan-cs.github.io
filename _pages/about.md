@@ -12,6 +12,10 @@ I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustwo
 
 Email: liufanuestc AT DOT com
 
+<span style="color:red;">**News:** ***Safe Intelligence AI unveils a revolutionary initiative to enhance the reliability of Large Language Models!***</span> **Our new project** **Safe Intelligence AI (安智 AI)** **is dedicated to establishing the trustworthiness of** **LLMs** **throughout the entire development process. For more information, please visit our** [**Website**](https://secure-intelligence.github.io/).
+
+
+
 
 
 Recent Works
