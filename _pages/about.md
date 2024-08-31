@@ -38,7 +38,7 @@ Education and Experience
 
 Awards, Acknowledgements, and Services
 ------
-* Reviewer for Conference: ICLR 2024, NeurIPS (Main, Datasets and Benchmarks Track) 2023, KDD 2023, AdvML-Frontiers (ICML 2023 Workshop), FL4Data-Mining (KDD 2023 Workshop)
+* Reviewer for Conference: ICLR 2024, NeurIPS 2023-2024, KDD 2023-2024, AdvML-Frontiers (ICML 2023 Workshop), FL4Data-Mining (KDD 2023 Workshop)
 * Reviewer for Journal: ITS, Transactions On SMC: Systems, Physica A, TFS, TII
 * TPC member: FL4Data-Mining (KDD 2023 Workshop)
 * KDD Student Travel Award (2023)
