@@ -8,7 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM-Powered Agents, LLM for Reasoning,  etc. My research papers  have been published in NeurIPS/KDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
+I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM-Powered Agents,  etc. My research papers  have been published in NeurIPS/KDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
+
+
+Currently, I am particularly interested in building **trustworthy and effective  LLMs**, which I approach through three key aspects: **evaluation, foundational capabilities, and real-world applications**.
+
+1. **LLM Evaluation**: Understanding the boundaries of LLMs, including their trustworthiness and reasoning capabilities. This involves assessing robustness, reliability, and alignment with human values.
+
+2. **Enhancing Fundamental Capabilities**: Based on evaluation insights, I explore methods to improve **LLM trustworthiness and reasoning **, including **defending against jailbreak attacks, ensuring alignment with human values, and addressing fundamental challenges in logical reasoning and reflection**.
+   
+3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
+
+Through this structured approach, my research aims to bridge the gap between LLM evaluation, theoretical advancements, and practical deployment, ultimately contributing to the development of **more reliable and capable AI systems**.
+
+If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or any related inquiries**.  
 
 Email: liufanuestc AT DOT com
 
