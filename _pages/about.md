@@ -15,7 +15,7 @@ Currently, I am particularly interested in building **trustworthy and effective 
 
 1. **LLM Evaluation**: Understanding the boundaries of LLMs, including their trustworthiness and reasoning capabilities. This involves assessing robustness, reliability, and alignment with human values.
 
-2. **Enhancing Fundamental Capabilities**: Based on evaluation insights, I explore methods to improve **LLM trustworthiness and reasoning **, including **defending against jailbreak attacks, ensuring alignment with human values, and addressing fundamental challenges in logical reasoning and reflection**.
+2. **Enhancing Fundamental Capabilities**: Based on evaluation insights, I explore methods to improve **LLM trustworthiness and reasoning**, including **defending against jailbreak attacks, ensuring alignment with human values, and addressing fundamental challenges in logical reasoning and reflection**.
    
 3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
 
