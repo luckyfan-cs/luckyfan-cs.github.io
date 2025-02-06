@@ -35,7 +35,7 @@ Recent Works
 ======
 * [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025.
 - [Arxiv] <b>Fan LIU</b>, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu, JAILJUDGE: A Comprehensive Jailbreak Judge Benchmark with Multi-Agent Enhanced Explanation Evaluation Framework, Arxiv, 2024. 
-[<a href="link">Project Page</a>], [<a href="link">pdf</a>], [<a href="link">Code</a>], [<a href="link">Dataset</a>], [<a href="link">Model</a>], [<a href="link">Coverage</a>] <span style="color:red;">🔥🚀 400+ Downloads</span>
+[<a href="link">Project Page</a>], [<a href="link">pdf</a>], [<a href="link">Code</a>], [<a href="link">Dataset</a>], [<a href="link">Model</a>], [<a href="link">Coverage</a>] <span style="color:red;">🔥🚀 Model 400+ Downloads</span>
 * [NeurIPS] Zhao Xu, **Fan LIU**, Hao Liu, Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs, NeurIPS D&B, 2024. [[pdf](http://arxiv.org/abs/2406.09324)], [[Code](https://github.com/usail-hkust/Bag_of_Tricks_for_LLM_Jailbreaking)],[[Coverage](https://mp.weixin.qq.com/s/KulCxJm1wgz2fqorfuJ3Iw)]
 * [Arxiv] **Fan LIU**, Zhao Xu, Hao Liu, Adversarial Tuning: Defending Against Jailbreak Attacks for LLMs, Arxiv, 2024. [[pdf](https://arxiv.org/pdf/2406.06622)]
 * [Arxiv] **Fan LIU**, Siqi Lai, Yansong Ning, Hao Liu, Bkd-FedGNN: A Benchmark for Classification Backdoor Attacks on Federated Graph Neural Network, Arxiv, 2023. [[pdf](https://arxiv.org/abs/2306.10351)], [[Code](https://github.com/usail-hkust/BkdFedGCN)]
