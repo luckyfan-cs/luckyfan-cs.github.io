@@ -15,9 +15,15 @@ Currently, I am particularly interested in building **trustworthy and effective 
 
 1. **LLM Evaluation**: Understanding the boundaries of LLMs, including their trustworthiness and reasoning capabilities. This involves assessing robustness, reliability, and alignment with human values.
 
+Related paper: [[LLM Reasoning](https://arxiv.org/pdf/2502.07191)],[[LLM Trustworthy](http://arxiv.org/abs/2406.09324)]
+
 2. **Enhancing Fundamental Capabilities**: Based on evaluation insights, I explore methods to improve **LLM trustworthiness and reasoning**, including **defending against jailbreak attacks, ensuring alignment with human values, and addressing fundamental challenges in logical reasoning and reflection**.
-   
+
+Related paper: [[Jailbreak Defense](https://arxiv.org/pdf/2406.06622)]
+
 3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
+
+Related paper: [[Jailbreak Judge Agents](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent](https://arxiv.org/abs/2504.08694)]
 
 Through this structured approach, my research aims to bridge the gap between LLM evaluation, theoretical advancements, and practical deployment, ultimately contributing to the development of **more reliable and capable AI systems**.
 
