@@ -23,7 +23,7 @@ Related paper: [[Jailbreak Defense](https://arxiv.org/pdf/2406.06622)]
 
 3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
 
-Related paper: [[Jailbreak Judge Agents](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent](https://arxiv.org/abs/2504.08694)]
+Related paper: [[Jailbreak Judge Agent](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent](https://arxiv.org/abs/2504.08694)]
 
 Through this structured approach, my research aims to bridge the gap between LLM evaluation, theoretical advancements, and practical deployment, ultimately contributing to the development of **more reliable and capable AI systems**.
 
