@@ -14,16 +14,13 @@ I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustwo
 Currently, I am particularly interested in building **trustworthy and effective  LLMs**, which I approach through three key aspects: **evaluation, foundational capabilities, and real-world applications**.
 
 1. **LLM Evaluation**: Understanding the boundaries of LLMs, including their trustworthiness and reasoning capabilities. This involves assessing robustness, reliability, and alignment with human values.
-
 Related paper: [[LLM Reasoning](https://arxiv.org/pdf/2502.07191)],[[LLM Trustworthy](http://arxiv.org/abs/2406.09324)]
 
 2. **Enhancing Fundamental Capabilities**: Based on evaluation insights, I explore methods to improve **LLM trustworthiness and reasoning**, including **defending against jailbreak attacks, ensuring alignment with human values, and addressing fundamental challenges in logical reasoning and reflection**.
-
 Related paper: [[Jailbreak Defense](https://arxiv.org/pdf/2406.06622)]
 
 3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
-
-Related paper: [[Jailbreak Judge Agent](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent](https://arxiv.org/abs/2504.08694)]
+Related paper: [[Mathematical Modeling Agent](https://arxiv.org/pdf/2505.14148)], [[Jailbreak Judge Agent](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent](https://arxiv.org/abs/2504.08694)]
 
 Through this structured approach, my research aims to bridge the gap between LLM evaluation, theoretical advancements, and practical deployment, ultimately contributing to the development of **more reliable and capable AI systems**.
 
@@ -39,6 +36,8 @@ Email: liufanuestc AT DOT com
 
 Recent Works
 ======
+[Arxiv] **Fan Liu**\*, **Zherui Yang**\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, *MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem*, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)]  
+\* Equal contribution
 * [Arxiv] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)]
 * [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025.
 * [Arxiv] **Fan LIU**, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu, JAILJUDGE: A Comprehensive Jailbreak Judge Benchmark with Multi-Agent Enhanced Explanation Evaluation Framework, Arxiv, 2024. [[Project Page](https://usail-hkust.github.io/Jailjudge/)],[[pdf](https://arxiv.org/pdf/2410.12855)], [[Code](https://github.com/usail-hkust/Jailjudge/)], [[Dataset](https://huggingface.co/datasets/usail-hkust/JailJudge)], [[Model](https://huggingface.co/usail-hkust/JailJudge-guard)],[[Coverage](https://mp.weixin.qq.com/s/eu9GLk_MNjPe80R5FrV_tg)] <span style="color:red;">🔥🚀 Model 400+ Downloads</span>
