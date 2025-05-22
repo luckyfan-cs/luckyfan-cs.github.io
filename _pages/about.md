@@ -36,7 +36,7 @@ Email: liufanuestc AT DOT com
 
 Recent Works
 ======
-[Arxiv] **Fan Liu**\*, **Zherui Yang**\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, *MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem*, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)]  
+* [Arxiv] **Fan Liu**\*, **Zherui Yang**\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, *MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem*, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)]  
 \* Equal contribution
 * [Arxiv] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)]
 * [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025.
