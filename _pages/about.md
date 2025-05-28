@@ -39,13 +39,13 @@ Recent Works
 * [Arxiv] **Fan Liu**\*, **Zherui Yang**\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, *MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem*, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)]  
 \* Equal contribution
 * [Arxiv] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, Arxiv, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)]
-* [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025.
-* [ECML PKDD] **Fan LIU**, Siqi Lai, Yansong Ning, Hao Liu, Bkd-FedGNN: A Benchmark for Classification Backdoor Attacks on Federated Graph Neural Network, ECML PKDD, 2025. [[pdf](https://arxiv.org/abs/2306.10351)], [[Code](https://github.com/usail-hkust/BkdFedGCN)]
+* [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025. **(CCF A, Oral)**
+* [ECML PKDD] **Fan LIU**, Siqi Lai, Yansong Ning, Hao Liu, Bkd-FedGNN: A Benchmark for Classification Backdoor Attacks on Federated Graph Neural Network, ECML PKDD, 2025. [[pdf](https://arxiv.org/abs/2306.10351)], [[Code](https://github.com/usail-hkust/BkdFedGCN)] **(CCF B)**
 * [Arxiv] **Fan LIU**, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu, JAILJUDGE: A Comprehensive Jailbreak Judge Benchmark with Multi-Agent Enhanced Explanation Evaluation Framework, Arxiv, 2024. [[Project Page](https://usail-hkust.github.io/Jailjudge/)],[[pdf](https://arxiv.org/pdf/2410.12855)], [[Code](https://github.com/usail-hkust/Jailjudge/)], [[Dataset](https://huggingface.co/datasets/usail-hkust/JailJudge)], [[Model](https://huggingface.co/usail-hkust/JailJudge-guard)],[[Coverage](https://mp.weixin.qq.com/s/eu9GLk_MNjPe80R5FrV_tg)] <span style="color:red;">🔥🚀 Model 400+ Downloads</span>
-* [NeurIPS] Zhao Xu, **Fan LIU**, Hao Liu, Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs, NeurIPS D&B, 2024. [[pdf](http://arxiv.org/abs/2406.09324)], [[Code](https://github.com/usail-hkust/Bag_of_Tricks_for_LLM_Jailbreaking)],[[Coverage](https://mp.weixin.qq.com/s/KulCxJm1wgz2fqorfuJ3Iw)]
+* [NeurIPS] Zhao Xu, **Fan LIU**, Hao Liu, Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs, NeurIPS D&B, 2024. [[pdf](http://arxiv.org/abs/2406.09324)], [[Code](https://github.com/usail-hkust/Bag_of_Tricks_for_LLM_Jailbreaking)],[[Coverage](https://mp.weixin.qq.com/s/KulCxJm1wgz2fqorfuJ3Iw)] **(CCF A)**
 * [Arxiv] **Fan LIU**, Zhao Xu, Hao Liu, Adversarial Tuning: Defending Against Jailbreak Attacks for LLMs, Arxiv, 2024. [[pdf](https://arxiv.org/pdf/2406.06622)]
-* [KDD] **Fan LIU**, Weijia Zhang, Hao Liu, Robust Spatiotemporal Traffic Forecasting with Reinforced Dynamic Adversarial Training, KDD, 2023.
-* [NeurIPS] **Fan LIU**, Hao Liu, Wenzhao Jiang, Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models, NeurIPS, 2022. [[Blog](https://hackmd.io/@tungsomot/H1CtgXDEo)], [[Code](https://github.com/usail-hkust/Adv-ST)]
+* [KDD] **Fan LIU**, Weijia Zhang, Hao Liu, Robust Spatiotemporal Traffic Forecasting with Reinforced Dynamic Adversarial Training, KDD, 2023. **(CCF A)**
+* [NeurIPS] **Fan LIU**, Hao Liu, Wenzhao Jiang, Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models, NeurIPS, 2022. [[Blog](https://hackmd.io/@tungsomot/H1CtgXDEo)], [[Code](https://github.com/usail-hkust/Adv-ST)] **(CCF A)**
 
 
 Education and Experience
