@@ -29,9 +29,7 @@ If you are interested in my research, **feel free to reach out for discussions, 
 Email: liufanuestc AT DOT com
 
 <span style="color:red;">**News: The future of scientific discovery with Foundation Models!**</span>  
-Foundation Models (FMs) like GPT-4 and AlphaFold are not just accelerating science—they're reshaping it. Are they tools, or the architects of a new paradigm?  
-In our position paper, we propose a three-stage framework tracing this evolution—from augmenting current practices, to co-creating with humans, to enabling autonomous discovery.  
-Explore the vision, challenges, and roadmap at: [https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery)
+Foundation Models (FMs) like GPT-4 and AlphaFold are not just accelerating science—they're reshaping it. Are they tools, or the architects of a new paradigm?  In our position paper, we propose a three-stage framework tracing this evolution—from augmenting current practices, to co-creating with humans, to enabling autonomous discovery.  Explore the vision, challenges, and roadmap at: [Awesome-Foundation-Models-for-Scientific-Discovery](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery)
 
 <span style="color:red;">**News:** ***Safe Intelligence AI unveils a revolutionary initiative to enhance the reliability of Large Language Models!***</span> **Our new project** **Safe Intelligence AI (安智 AI)** **is dedicated to establishing the trustworthiness of** **LLMs** **throughout the entire development process. For more information, please visit our** [**Website**](https://secure-intelligence.github.io/).
 
