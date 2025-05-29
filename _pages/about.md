@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM-Powered Agents,  etc. My research papers  have been published in NeurIPS/KDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
+I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM-Powered Agents,  etc. My research papers  have been published in NeurIPS/KDD/WWW/ECML PKDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
 
 
 Currently, I am particularly interested in building **trustworthy and effective  LLMs**, which I approach through three key aspects: **evaluation, foundational capabilities, and real-world applications**.
