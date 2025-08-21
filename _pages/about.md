@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM-Powered Agents,  etc. My research papers  have been published in NeurIPS/KDD/WWW/ECML PKDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
+I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM Agents,  etc. My research papers  have been published in NeurIPS/KDD/WWW/ECML PKDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
 
 
 Currently, I am particularly interested in building **trustworthy and effective  LLMs**, which I approach through three key aspects: **evaluation, foundational capabilities, and real-world applications**.
@@ -20,20 +20,13 @@ Related paper: [[LLM Reasoning](https://arxiv.org/pdf/2502.07191)],[[LLM Trustwo
 Related paper: [[Jailbreak Defense](https://arxiv.org/pdf/2406.06622)]
 
 3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
-Related paper: [[Mathematical Modeling Agent](https://arxiv.org/pdf/2505.14148)], [[Jailbreak Judge Agent](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent](https://arxiv.org/abs/2504.08694)]
+Related paper: [[Mathematical Modeling Agent](https://arxiv.org/pdf/2505.14148)], [[Jailbreak Judge Agent](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent (EMNLP)](https://arxiv.org/abs/2504.08694)]
 
 Through this structured approach, my research aims to bridge the gap between LLM evaluation, theoretical advancements, and practical deployment, ultimately contributing to the development of **more reliable and capable AI systems**.
 
 If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or any related inquiries**.  
 
 Email: liufanuestc AT DOT com
-
-<span style="color:red;">**News: The future of scientific discovery with Foundation Models!**</span>  
-Foundation Models (FMs) like GPT-4 and AlphaFold are not just accelerating science—they're reshaping it. Are they tools, or the architects of a new paradigm?  In our position paper, we propose a three-stage framework tracing this evolution—from augmenting current practices, to co-creating with humans, to enabling autonomous discovery.  Explore the vision, challenges, and roadmap at: [Awesome-Foundation-Models-for-Scientific-Discovery](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery)
-
-<span style="color:red;">**News:** ***Safe Intelligence AI unveils a revolutionary initiative to enhance the reliability of Large Language Models!***</span> **Our new project** **Safe Intelligence AI (安智 AI)** **is dedicated to establishing the trustworthiness of** **LLMs** **throughout the entire development process. For more information, please visit our** [**Website**](https://secure-intelligence.github.io/).
-
-
 
 
 
