@@ -11,7 +11,7 @@ redirect_from:
 I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM Agents,  etc. My research papers  have been published in NeurIPS/KDD/WWW/ECML PKDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
 
 
-Currently, my research focuses on scientific discovery, advancing LLM through alignment, modeling, and reasoning. If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or any related inquiries**.  
+Currently, my research focuses on LLM for automating scientific discovery, advancing LLM through alignment, modeling, and reasoning. If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or any related inquiries**.  
 
 Email: liufanuestc AT DOT com
 
@@ -20,9 +20,9 @@ Email: liufanuestc AT DOT com
 Recent Works
 ======
 (* Equal contribution)
-- [NeurIPS] **Fan Liu**, Jindong Han, Tengfei Lyu, Weijia Zhang, Zhe-Rui Yang, Lu Dai, Cancheng Liu, Hao Liu, *Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition*, NeurIPS, 2025. [📄 pdf](https://www.researchgate.net/publication/392172352_Foundation_Models_for_Scientific_Discovery_From_Paradigm_Enhancement_to_Paradigm_Transition), [💻 Project](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery)
-* [NeurIPS] **Fan Liu**\*, Zherui Yang\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem, NeurIPS, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)]  
-* [NeurIPS] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, NeurIPS D&B, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)]
+- [NeurIPS] **Fan Liu**, Jindong Han, Tengfei Lyu, Weijia Zhang, Zhe-Rui Yang, Lu Dai, Cancheng Liu, Hao Liu, *Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition*, NeurIPS, 2025. [📄 pdf](https://www.researchgate.net/publication/392172352_Foundation_Models_for_Scientific_Discovery_From_Paradigm_Enhancement_to_Paradigm_Transition), [💻 Project](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery) **(CCF A )**
+* [NeurIPS] **Fan Liu**\*, Zherui Yang\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem, NeurIPS, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)] **(CCF A )**
+* [NeurIPS] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, NeurIPS D&B, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)] **(CCF A )**
 * [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025. **(CCF A, Oral)**
 * [Arxiv] **Fan LIU**, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu, JAILJUDGE: A Comprehensive Jailbreak Judge Benchmark with Multi-Agent Enhanced Explanation Evaluation Framework, Arxiv, 2024. [[Project Page](https://usail-hkust.github.io/Jailjudge/)],[[pdf](https://arxiv.org/pdf/2410.12855)], [[Code](https://github.com/usail-hkust/Jailjudge/)], [[Dataset](https://huggingface.co/datasets/usail-hkust/JailJudge)], [[Model](https://huggingface.co/usail-hkust/JailJudge-guard)],[[Coverage](https://mp.weixin.qq.com/s/eu9GLk_MNjPe80R5FrV_tg)] <span style="color:red;">🔥🚀 Model 4000+ Downloads</span>
 * [NeurIPS] Zhao Xu, **Fan LIU**, Hao Liu, Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs, NeurIPS D&B, 2024. [[pdf](http://arxiv.org/abs/2406.09324)], [[Code](https://github.com/usail-hkust/Bag_of_Tricks_for_LLM_Jailbreaking)],[[Coverage](https://mp.weixin.qq.com/s/KulCxJm1wgz2fqorfuJ3Iw)] **(CCF A)**
