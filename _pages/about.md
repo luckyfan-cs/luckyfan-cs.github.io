@@ -11,20 +11,7 @@ redirect_from:
 I am Fan LIU, a research student at HKUST(GZ). My current interest is in trustworthy LLM, LLM for Reasoning and LLM Agents,  etc. My research papers  have been published in NeurIPS/KDD/WWW/ECML PKDD/ICMLW/TFS, etc.  For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]
 
 
-Currently, I am particularly interested in building **trustworthy and effective  LLMs**, which I approach through three key aspects: **evaluation, foundational capabilities, and real-world applications**.
-
-1. **LLM Evaluation**: Understanding the boundaries of LLMs, including their trustworthiness and reasoning capabilities. This involves assessing robustness, reliability, and alignment with human values.
-Related paper: [[LLM Reasoning](https://arxiv.org/pdf/2502.07191)],[[LLM Trustworthy](http://arxiv.org/abs/2406.09324)]
-
-2. **Enhancing Fundamental Capabilities**: Based on evaluation insights, I explore methods to improve **LLM trustworthiness and reasoning**, including **defending against jailbreak attacks, ensuring alignment with human values, and addressing fundamental challenges in logical reasoning and reflection**.
-Related paper: [[Jailbreak Defense](https://arxiv.org/pdf/2406.06622)]
-
-3. **LLM-Powered Agents and Applications**: Leveraging improved foundational capabilities to develop **trustworthy, real-world AI agents**. This involves studying agent alignment, decision-making, and adaptive interactions in dynamic environments.
-Related paper: [[Mathematical Modeling Agent](https://arxiv.org/pdf/2505.14148)], [[Jailbreak Judge Agent](https://arxiv.org/pdf/2410.12855)], [[Travel Planing Agent (EMNLP)](https://arxiv.org/abs/2504.08694)]
-
-Through this structured approach, my research aims to bridge the gap between LLM evaluation, theoretical advancements, and practical deployment, ultimately contributing to the development of **more reliable and capable AI systems**.
-
-If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or any related inquiries**.  
+Currently, my research focuses on scientific discovery, advancing LLM through alignment, modeling, and reasoning. If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or any related inquiries**.  
 
 Email: liufanuestc AT DOT com
 
@@ -37,10 +24,8 @@ Recent Works
 * [NeurIPS] **Fan Liu**\*, Zherui Yang\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem, NeurIPS, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)]  
 * [NeurIPS] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, NeurIPS D&B, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)]
 * [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025. **(CCF A, Oral)**
-* [ECML PKDD] **Fan LIU**, Siqi Lai, Yansong Ning, Hao Liu, Bkd-FedGNN: A Benchmark for Classification Backdoor Attacks on Federated Graph Neural Network, ECML PKDD, 2025. [[pdf](https://arxiv.org/abs/2306.10351)], [[Code](https://github.com/usail-hkust/BkdFedGCN)] **(CCF B)**
 * [Arxiv] **Fan LIU**, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu, JAILJUDGE: A Comprehensive Jailbreak Judge Benchmark with Multi-Agent Enhanced Explanation Evaluation Framework, Arxiv, 2024. [[Project Page](https://usail-hkust.github.io/Jailjudge/)],[[pdf](https://arxiv.org/pdf/2410.12855)], [[Code](https://github.com/usail-hkust/Jailjudge/)], [[Dataset](https://huggingface.co/datasets/usail-hkust/JailJudge)], [[Model](https://huggingface.co/usail-hkust/JailJudge-guard)],[[Coverage](https://mp.weixin.qq.com/s/eu9GLk_MNjPe80R5FrV_tg)] <span style="color:red;">🔥🚀 Model 4000+ Downloads</span>
 * [NeurIPS] Zhao Xu, **Fan LIU**, Hao Liu, Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs, NeurIPS D&B, 2024. [[pdf](http://arxiv.org/abs/2406.09324)], [[Code](https://github.com/usail-hkust/Bag_of_Tricks_for_LLM_Jailbreaking)],[[Coverage](https://mp.weixin.qq.com/s/KulCxJm1wgz2fqorfuJ3Iw)] **(CCF A)**
-* [Arxiv] **Fan LIU**, Zhao Xu, Hao Liu, Adversarial Tuning: Defending Against Jailbreak Attacks for LLMs, Arxiv, 2024. [[pdf](https://arxiv.org/pdf/2406.06622)]
 * [KDD] **Fan LIU**, Weijia Zhang, Hao Liu, Robust Spatiotemporal Traffic Forecasting with Reinforced Dynamic Adversarial Training, KDD, 2023. **(CCF A)**
 * [NeurIPS] **Fan LIU**, Hao Liu, Wenzhao Jiang, Practical Adversarial Attacks on Spatiotemporal Traffic Forecasting Models, NeurIPS, 2022. [[Blog](https://hackmd.io/@tungsomot/H1CtgXDEo)], [[Code](https://github.com/usail-hkust/Adv-ST)] **(CCF A)**
 
