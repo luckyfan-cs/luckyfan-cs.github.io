@@ -20,7 +20,7 @@ Email: liufanuestc AT DOT com
 Recent Works
 ======
 (* Equal contribution)
-- [NeurIPS] **Fan Liu**, Jindong Han, Tengfei Lyu, Weijia Zhang, Zhe-Rui Yang, Lu Dai, Cancheng Liu, Hao Liu, *Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition*, NeurIPS, 2025. [📄 pdf](https://www.researchgate.net/publication/392172352_Foundation_Models_for_Scientific_Discovery_From_Paradigm_Enhancement_to_Paradigm_Transition), [💻 Project](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery) **(CCF A )**
+* [NeurIPS] **Fan Liu**, Jindong Han, Tengfei Lyu, Weijia Zhang, Zhe-Rui Yang, Lu Dai, Cancheng Liu, Hao Liu, *Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition*, NeurIPS, 2025. [📄 pdf](https://www.researchgate.net/publication/392172352_Foundation_Models_for_Scientific_Discovery_From_Paradigm_Enhancement_to_Paradigm_Transition), [💻 Project](https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery) **(CCF A )**
 * [NeurIPS] **Fan Liu**\*, Zherui Yang\*, Cancheng Liu, Tianrui Song, Xiaofeng Gao, Hao Liu, MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem, NeurIPS, 2025. [[pdf](https://arxiv.org/pdf/2505.14148)], [[Code](https://github.com/usail-hkust/LLM-MM-Agent)] **(CCF A )**
 * [NeurIPS] **Fan LIU**, Wenshuo Chao, Naiqiang Tan, Hao Liu, Bag of Tricks for Inference-time Computation of LLM Reasoning, NeurIPS D&B, 2025. [[pdf](https://arxiv.org/pdf/2502.07191)], [[Code](https://github.com/usail-hkust/benchmark_inference_time_computation_LLM)] **(CCF A )**
 * [WWW] **Fan LIU**, Hao Liu, Subgraph Federated Unlearning, WWW, 2025. **(CCF A, Oral)**
