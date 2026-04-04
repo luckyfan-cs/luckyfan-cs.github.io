@@ -21,7 +21,7 @@ I have published over 10 papers at top-tier venues, including NeurIPS, KDD, WWW,
 Email: liufanuestc AT DOT com
 
 
-Featured Works
+Selected Works
 ======
 <div class="featured-publications">
   <article class="featured-publication-card">
@@ -34,12 +34,9 @@ Featured Works
       <p class="featured-publication-card__description">MM-Agent is an LLM agent framework for real-world mathematical modeling. It decomposes open-ended modeling into problem analysis, model formulation, computational solving, and report generation, enabling end-to-end solutions for real-world mathematical modeling tasks.</p>
       <div class="featured-publication-card__links">
         <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">Paper</a>
-        <a class="featured-publication-card__link" href="https://arxiv.org/abs/2505.14148">arXiv</a>
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/LLM-MM-Agent">Code</a>
         <a class="featured-publication-card__link" href="https://huggingface.co/spaces/MathematicalModelingAgent/MathematicalModelingAgent">Demo</a>
-        <a class="featured-publication-card__stars" href="https://github.com/usail-hkust/LLM-MM-Agent/stargazers">
-          <img alt="GitHub stars for MM-Agent" src="https://img.shields.io/github/stars/usail-hkust/LLM-MM-Agent?style=social">
-        </a>
+        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 501 stars</span>
       </div>
     </div>
   </article>
@@ -54,11 +51,8 @@ Featured Works
       <p class="featured-publication-card__description">DSLighting is an LLM-driven autonomous data science execution engine that turns task descriptions and datasets into iterative code generation, execution, evaluation, and refinement workflows.</p>
       <div class="featured-publication-card__links">
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/dslighting">Code</a>
-        <a class="featured-publication-card__link" href="https://pypi.org/project/dslighting/">PyPI</a>
         <a class="featured-publication-card__link" href="https://luckyfan-cs.github.io/dslighting-web/api/getting-started.html">Docs</a>
-        <a class="featured-publication-card__stars" href="https://github.com/usail-hkust/dslighting/stargazers">
-          <img alt="GitHub stars for DSLighting" src="https://img.shields.io/github/stars/usail-hkust/dslighting?style=social">
-        </a>
+        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 46 stars</span>
       </div>
     </div>
   </article>
