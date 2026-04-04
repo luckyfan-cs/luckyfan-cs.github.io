@@ -16,15 +16,59 @@ I am Fan LIU, a graduate student at HKUST(GZ). My research focuses on LLM agents
 
 - Systems-centric: infrastructure that enables autonomous data science agents to operate reliably in real-world environments, including execution infrastructure for data and environment interaction, control infrastructure for long-horizon task execution, and platform infrastructure for scalable training, deployment, and governance. A representative system is [DSLighting](https://github.com/usail-hkust/dslighting), an end-to-end data science agent platform ([PyPI](https://pypi.org/project/dslighting/)).
 
-My papers have appeared in NeurIPS, KDD, WWW, ECML PKDD, ICMLW, and TFS. For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]. If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or related inquiries**.  
+I have published over 10 papers at top-tier venues, including NeurIPS, KDD, WWW, ECML PKDD, ICMLW, and TFS. For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]. If you are interested in my research, **feel free to reach out for discussions, collaborations, internship opportunities, or related inquiries**.  
 
 Email: liufanuestc AT DOT com
+
+
+Featured Works
+======
+<div class="featured-publications">
+  <article class="featured-publication-card">
+    <a class="featured-publication-card__media" href="https://openreview.net/forum?id=o8n5oNDsiq">
+      <img src="{{ site.baseurl }}/assets/papers/MM-agent.png" alt="MM-Agent teaser image" loading="lazy">
+    </a>
+    <div class="featured-publication-card__body">
+      <div class="featured-publication-card__meta">NeurIPS 2025</div>
+      <h3 class="featured-publication-card__title"><a href="https://openreview.net/forum?id=o8n5oNDsiq">MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem</a></h3>
+      <p class="featured-publication-card__description">MM-Agent is an LLM agent framework for real-world mathematical modeling. It decomposes open-ended modeling into problem analysis, model formulation, computational solving, and report generation, enabling end-to-end solutions for real-world mathematical modeling tasks.</p>
+      <div class="featured-publication-card__links">
+        <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">Paper</a>
+        <a class="featured-publication-card__link" href="https://arxiv.org/abs/2505.14148">arXiv</a>
+        <a class="featured-publication-card__link" href="https://github.com/usail-hkust/LLM-MM-Agent">Code</a>
+        <a class="featured-publication-card__link" href="https://huggingface.co/spaces/MathematicalModelingAgent/MathematicalModelingAgent">Demo</a>
+        <a class="featured-publication-card__stars" href="https://github.com/usail-hkust/LLM-MM-Agent/stargazers">
+          <img alt="GitHub stars for MM-Agent" src="https://img.shields.io/github/stars/usail-hkust/LLM-MM-Agent?style=social">
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <article class="featured-publication-card">
+    <a class="featured-publication-card__media" href="https://github.com/usail-hkust/dslighting">
+      <img src="{{ site.baseurl }}/assets/papers/dslighting.png" alt="DSLighting teaser image" loading="lazy">
+    </a>
+    <div class="featured-publication-card__body">
+      <div class="featured-publication-card__meta">Data Science Agent Harness</div>
+      <h3 class="featured-publication-card__title"><a href="https://github.com/usail-hkust/dslighting">DSLighting</a></h3>
+      <p class="featured-publication-card__description">DSLighting is an LLM-driven autonomous data science execution engine that turns task descriptions and datasets into iterative code generation, execution, evaluation, and refinement workflows.</p>
+      <div class="featured-publication-card__links">
+        <a class="featured-publication-card__link" href="https://github.com/usail-hkust/dslighting">Code</a>
+        <a class="featured-publication-card__link" href="https://pypi.org/project/dslighting/">PyPI</a>
+        <a class="featured-publication-card__link" href="https://luckyfan-cs.github.io/dslighting-web/api/getting-started.html">Docs</a>
+        <a class="featured-publication-card__stars" href="https://github.com/usail-hkust/dslighting/stargazers">
+          <img alt="GitHub stars for DSLighting" src="https://img.shields.io/github/stars/usail-hkust/dslighting?style=social">
+        </a>
+      </div>
+    </div>
+  </article>
+</div>
 
 
 
 Recent Works
 ======
-<details class="recent-works">
+<details class="collapsible-section recent-works">
   <summary><strong>Expand / collapse list</strong></summary>
   <p><em>(* Equal contribution)</em></p>
   <ul>
@@ -43,20 +87,30 @@ Recent Works
 
 Education and Experience
 ======
-* 2022: Graduate student at HKUST(GZ)
-* 2021: Intern at HKUST(GZ)
-* 2020: Intern at MSRA ([StarBridge Program](https://www.msra.cn/zh-cn/connections/academic-programs/xingqiao)) 
-* 2020: B.S. from UESTC   
-* 2019: Research visit at UBC  
+<details class="collapsible-section">
+  <summary><strong>Expand / collapse list</strong></summary>
+  <ul>
+    <li>2022: Graduate student at HKUST(GZ)</li>
+    <li>2021: Intern at HKUST(GZ)</li>
+    <li>2020: Intern at MSRA (<a href="https://www.msra.cn/zh-cn/connections/academic-programs/xingqiao">StarBridge Program</a>)</li>
+    <li>2020: B.S. from UESTC</li>
+    <li>2019: Research visit at UBC</li>
+  </ul>
+</details>
 
 
 Awards, Acknowledgements, and Services
 ------
-* Reviewer for Conference: ICLR 2024-2025, NeurIPS 2023-2024, KDD 2023-2025, WWW 2025, AISTATS 2025, AdvML-Frontiers (ICML 2023 Workshop), FL4Data-Mining (KDD 2023 Workshop)
-* Reviewer for Journal: ITS, Transactions On SMC: Systems, Physica A, TFS, TII
-* TPC member: FL4Data-Mining (KDD 2023 Workshop)
-* KDD Student Travel Award (2023)
-* RBM Student Travel Grant (2023)
-* Outstanding Undergraduate Thesis Award
-* Outstanding Undergraduate Student
-* Excellent Student Scholarship (2017-2020)
+<details class="collapsible-section">
+  <summary><strong>Expand / collapse list</strong></summary>
+  <ul>
+    <li>Reviewer for Conference: ICLR 2024-2025, NeurIPS 2023-2024, KDD 2023-2025, WWW 2025, AISTATS 2025, AdvML-Frontiers (ICML 2023 Workshop), FL4Data-Mining (KDD 2023 Workshop)</li>
+    <li>Reviewer for Journal: ITS, Transactions On SMC: Systems, Physica A, TFS, TII</li>
+    <li>TPC member: FL4Data-Mining (KDD 2023 Workshop)</li>
+    <li>KDD Student Travel Award (2023)</li>
+    <li>RBM Student Travel Grant (2023)</li>
+    <li>Outstanding Undergraduate Thesis Award</li>
+    <li>Outstanding Undergraduate Student</li>
+    <li>Excellent Student Scholarship (2017-2020)</li>
+  </ul>
+</details>
