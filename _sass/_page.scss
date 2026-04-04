@@ -229,8 +229,13 @@
 }
 
 .page__content .collapsible-section + h1,
+.page__content .featured-publications + h1,
 .page__content .collapsible-section + h2 {
-  margin-top: 2.35rem;
+  margin-top: 2.75rem;
+}
+
+.page__content .featured-publications + h2 {
+  margin-top: 2.75rem;
 }
 
 .featured-publication-card {
