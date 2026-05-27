@@ -22,6 +22,14 @@ I have published 10+ papers at top-tier venues, including ICLR, NeurIPS, KDD, WW
 
 Email: liufanuestc AT DOT com
 
+Latest Blog
+======
+
+**[什么是 AI Data Scientists？](/posts/2026/05/ai-data-scientists/)**  
+一篇简短的中英文博客，介绍 AI Data Scientists 的定义、用途、与传统 AutoML 的区别、核心框架、挑战和代表性 benchmark。
+
+[Read the latest blog](/posts/2026/05/ai-data-scientists/){: .btn .btn--primary}
+
 
 Selected Works
 ======
