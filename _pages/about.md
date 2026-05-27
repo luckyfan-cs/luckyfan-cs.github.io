@@ -49,7 +49,7 @@ Selected Works
         <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">Paper</a>
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/LLM-MM-Agent">Code</a>
         <a class="featured-publication-card__link" href="https://huggingface.co/spaces/MathematicalModelingAgent/MathematicalModelingAgent">Demo</a>
-        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 501 stars</span>
+        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 559 stars</span>
       </div>
     </div>
   </article>
@@ -65,7 +65,7 @@ Selected Works
       <div class="featured-publication-card__links">
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/dslighting">Code</a>
         <a class="featured-publication-card__link" href="https://luckyfan-cs.github.io/dslighting-web/api/getting-started.html">Docs</a>
-        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 46 stars</span>
+        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 48 stars</span>
       </div>
     </div>
   </article>
