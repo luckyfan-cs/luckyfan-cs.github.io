@@ -132,7 +132,7 @@ AI Data Scientists 可以看成三层协同：
   title  = {Towards Autonomous Data Science with LLM Agents: A Survey and Outlook},
   author = {Liu, Fan and Han, Jindong and Lyu, Tengfei and Yang, Zherui and Liu, Hao},
   year   = {2026},
-  note   = {Manuscript}
+  url    = {https://luckyfan-cs.github.io/posts/2026/05/ai-data-scientists/}
 }
 ```
 
@@ -232,7 +232,7 @@ No single benchmark fully covers the real data-science workflow today. DS-1000 f
   title  = {Towards Autonomous Data Science with LLM Agents: A Survey and Outlook},
   author = {Liu, Fan and Han, Jindong and Lyu, Tengfei and Yang, Zherui and Liu, Hao},
   year   = {2026},
-  note   = {Manuscript}
+  url    = {https://luckyfan-cs.github.io/posts/2026/05/ai-data-scientists/}
 }
 ```
 
