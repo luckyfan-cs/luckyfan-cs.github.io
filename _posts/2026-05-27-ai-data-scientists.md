@@ -77,6 +77,10 @@ AI Data Scientists 可以看成三层协同：
 
 **可靠执行很难。** Agent 会写代码、改数据、调用外部工具，也会犯错。因此需要可复现环境、权限控制、自动审计、失败恢复和人类确认机制。
 
+## 总结
+
+当前 AI Data Scientists 仍处于早期阶段。如何系统评估其真实能力，如何构造更强、更通用、更可靠的 agent，以及如何让它们在开放世界任务中与人类有效协作，仍然需要进一步探索。
+
 ## Benchmark 与评估
 
 目前还没有一个 benchmark 能完整覆盖真实的数据科学流程：DS-1000 更偏代码生成，MLE-bench 更偏 Kaggle 式机器学习工程，DABstep 和 KramaBench 更接近真实业务分析，而 DSGym、ResearchGym 进一步把工具、环境、执行轨迹和审计纳入评估。
@@ -172,6 +176,10 @@ AI Data Scientists can be viewed as a three-layer system:
 **Complex modeling is hard.** Data science is not one-step code generation. It is a long-horizon decision process: formulating the problem, constructing features, comparing models, designing validation, explaining errors, and avoiding leakage. A single wrong step can make the final score or chart misleading.
 
 **Reliable execution is hard.** Agents write code, modify data, and call external tools, so they can also make operational mistakes. Deployment requires reproducible environments, access control, automatic auditing, failure recovery, and human confirmation when needed.
+
+## Summary
+
+AI Data Scientists are still at an early stage. How to evaluate their real capabilities, how to build stronger, more general, and more reliable agents, and how to make them collaborate effectively with humans in open-world tasks remain open questions.
 
 ## Benchmarks and Evaluation
 
