@@ -300,6 +300,13 @@ DSLighting 是沿这个方向迈出的一步：先把异构 benchmark、agent wo
   year   = {2026},
   url    = {https://luckyfan-cs.github.io/posts/2026/05/ai-data-scientists/}
 }
+
+@misc{liu2026dslighting,
+  title  = {DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation},
+  author = {Liu, Fan and Liu, Hao},
+  year   = {2026},
+  url    = {https://github.com/usail-hkust/dslighting}
+}
 ```
 
 </div>
@@ -564,6 +571,13 @@ If this question cannot be answered clearly, evaluating AI Data Scientist capabi
   author = {Liu, Fan and Han, Jindong and Lyu, Tengfei and Yang, Zherui and Liu, Hao},
   year   = {2026},
   url    = {https://luckyfan-cs.github.io/posts/2026/05/ai-data-scientists/}
+}
+
+@misc{liu2026dslighting,
+  title  = {DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation},
+  author = {Liu, Fan and Liu, Hao},
+  year   = {2026},
+  url    = {https://github.com/usail-hkust/dslighting}
 }
 ```
 
