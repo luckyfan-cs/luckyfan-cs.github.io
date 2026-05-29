@@ -213,6 +213,10 @@ logging:
 
 整体架构包含四层：
 
+![DSLighting layered agent harness framework](/images/ai-data-scientists/dslighting-framework.png)
+
+*DSLighting 的四层 agent harness 框架：数据层、workflow 层、执行层和评估层。*
+
 1. **数据层：** 提供统一的任务接口，把原始数据、文件结构、schema、样例记录、输入输出要求和评分约束整理成 agent 可读的 task contract。它相当于给 agent 一个规范化的数据感知格式，减少“文件在哪里、要交什么、格式是什么”这类非模型能力错误。
 2. **Workflow 层：** 把不同 data science agent 的能力拆成原子化 operator，例如数据检查、计划、代码生成、执行、调试、验证和提交。这个设计有点像数学里的“基”：只要基足够清楚，就可以编排出不同形式的 agent，包括静态 workflow 和动态 workflow。
 3. **执行层：** 在受控环境中执行代码、管理 workspace、保存中间状态，并支持并发运行不同任务。相比很多顺序执行的评测脚本，这种调度方式更适合大规模 benchmark evaluation。
@@ -511,6 +515,10 @@ To address these issues, we recently built an initial data-science agent harness
 The first step is benchmark normalization. DSLighting now supports benchmark evaluation for DACode (EMNLP 2024), DABench (ICML 2024), MoSciBench (ICLR 2026), MLE-Bench, and ScienceAgentBench (ICLR 2025). These benchmarks come with different task sources, artifacts, and grading scripts, so we organize them into a unified format close to MLE-bench: each task has a clear task description, public data directory, expected output artifacts, runtime constraints, and evaluator interface. In this form, a benchmark is no longer just a collection of scripts and files, but a task unit that can be scheduled, executed, and reproduced by a unified runner.
 
 The overall architecture has four layers:
+
+![DSLighting layered agent harness framework](/images/ai-data-scientists/dslighting-framework.png)
+
+*The four-layer DSLighting agent harness: data, workflow, execution, and evaluation.*
 
 1. **Data layer:** provides a unified task interface by converting raw data, file layouts, schemas, sample records, input-output requirements, and scoring constraints into an agent-readable task contract. This gives the agent a normalized data-perception format and reduces non-model failures such as not knowing where files are, what to submit, or which format is required.
 2. **Workflow layer:** decomposes the capabilities of data-science agents into atomic operators, such as data inspection, planning, code generation, execution, debugging, validation, and submission. This is similar to the idea of a basis in mathematics: once the basis is clear, many forms of agents can be composed, including static workflows and dynamic workflows.
