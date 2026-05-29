@@ -241,6 +241,33 @@ print(result.results_path)
 print(result.metadata_path)
 ```
 
+### 一些初步实验结果
+
+在相同任务接口、相同执行设置和官方 evaluator 下，DSLighting 在多个 benchmark 上达到最好或并列最好的结果。尤其是在更异构的任务上，harness 的影响会更明显。
+
+| Harness | DABench | DACode | MoSciBench | ScienceAgentBench |
+| --- | ---: | ---: | ---: | ---: |
+| VanillaHarness | **0.8521** | 0.3073 | 0.4659 | 0.1863 |
+| LangChain | 0.8210 | 0.3013 | 0.5000 | 0.1373 |
+| AutoGen | 0.7704 | 0.1974 | 0.1932 | 0.0980 |
+| OpenHands | 0.7626 | 0.2361 | 0.3182 | 0.0882 |
+| DSLighting | **0.8521** | **0.3709** | **0.6477** | **0.1961** |
+
+这个结果说明：在 DABench 这种相对标准化的数据分析任务上，轻量 harness 已经可以达到较好表现；但在 DACode、MoSciBench 和 ScienceAgentBench 这类更依赖文件组织、代码执行、产物格式和评估协议的任务上，显式 harness 的优势更明显。
+
+进一步看 ablation，去掉数据 grounding、执行治理或评估对齐都会明显降低整体表现：
+
+| Setting | Macro Avg. | 关键现象 |
+| --- | ---: | --- |
+| Full DSLighting | **0.5167** | 完整 harness |
+| w/o Data Grounding | 0.3721 | DACode 从 0.3709 降到 0.2376；MoSciBench 从 0.6477 降到 0.3750 |
+| w/o Execution Governance | 0.2714 | 最大跌幅；DABench 从 0.8521 降到 0.2724 |
+| w/o Evaluation Alignment | 0.3971 | MoSciBench 从 0.6477 降到 0.3409；ScienceAgentBench 从 0.1961 降到 0.0588 |
+
+这组结果支持一个直接结论：很多失败并不是模型“不会思考”，而是数据没有被正确 grounding、执行状态没有被稳定管理、或者中间反馈没有和 evaluator 的成功标准对齐。
+
+从效率上看，在 DABench 上复现 ReAct 时，LangChain ReAct 五个模型完整运行总耗时为 642.7 分钟，而 DSLighting ReAct 为 236.9 分钟，整体约 2.71 倍加速。失败模式分析也显示，DSLighting 主要减少的是任务 grounding、执行控制、评估对齐相关的可避免系统级失败，使剩余错误更集中在模型本身的能力边界上。
+
 这只是第一步。更长期来看，DSLighting 这类 harness 的价值不只是“跑 benchmark 更方便”，而是把 agent 的数据感知、workflow 控制、执行状态和评估反馈变成可观察、可复现、可替换的系统组件。
 
 ## 更好的复杂任务应该长什么样
@@ -512,6 +539,33 @@ result = benchmark.run(config=config)
 print(result.results_path)
 print(result.metadata_path)
 ```
+
+### Initial Experimental Evidence
+
+Under the same task interface, execution setting, and official evaluators, DSLighting achieves the best or tied-best results across several benchmarks. The effect is especially visible on more heterogeneous tasks.
+
+| Harness | DABench | DACode | MoSciBench | ScienceAgentBench |
+| --- | ---: | ---: | ---: | ---: |
+| VanillaHarness | **0.8521** | 0.3073 | 0.4659 | 0.1863 |
+| LangChain | 0.8210 | 0.3013 | 0.5000 | 0.1373 |
+| AutoGen | 0.7704 | 0.1974 | 0.1932 | 0.0980 |
+| OpenHands | 0.7626 | 0.2361 | 0.3182 | 0.0882 |
+| DSLighting | **0.8521** | **0.3709** | **0.6477** | **0.1961** |
+
+This suggests that lightweight harnesses can already work well on relatively standardized data-analysis tasks such as DABench. However, on DACode, MoSciBench, and ScienceAgentBench, where tasks depend more heavily on file organization, code execution, artifact format, and evaluation protocol, an explicit data-science harness becomes more useful.
+
+The ablation study tells the same story: removing data grounding, execution governance, or evaluation alignment all substantially reduces performance.
+
+| Setting | Macro Avg. | Key Observation |
+| --- | ---: | --- |
+| Full DSLighting | **0.5167** | Complete harness |
+| w/o Data Grounding | 0.3721 | DACode drops from 0.3709 to 0.2376; MoSciBench drops from 0.6477 to 0.3750 |
+| w/o Execution Governance | 0.2714 | Largest decline; DABench drops from 0.8521 to 0.2724 |
+| w/o Evaluation Alignment | 0.3971 | MoSciBench drops from 0.6477 to 0.3409; ScienceAgentBench drops from 0.1961 to 0.0588 |
+
+These results support a direct conclusion: many failures are not simply caused by the model being unable to reason. They come from data not being grounded correctly, execution state not being managed reliably, or intermediate feedback not being aligned with the evaluator's success criterion.
+
+On efficiency, when reproducing ReAct on DABench, LangChain ReAct takes 642.7 minutes across five complete model runs, while DSLighting ReAct takes 236.9 minutes, giving about a 2.71x speedup. Failure-mode analysis also shows that DSLighting mainly reduces avoidable system-level failures related to task grounding, execution control, and evaluation alignment, pushing the remaining errors closer to intrinsic model-capability limits.
 
 This is only a first step. In the longer run, the value of harnesses such as DSLighting is not merely that they make benchmarks easier to run. They also turn data perception, workflow control, execution state, and evaluation feedback into observable, reproducible, and replaceable system components.
 
