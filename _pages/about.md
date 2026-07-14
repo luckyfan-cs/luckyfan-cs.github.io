@@ -68,7 +68,7 @@ Selected Works
         <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">Paper</a>
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/LLM-MM-Agent">Code</a>
         <a class="featured-publication-card__link" href="https://huggingface.co/spaces/MathematicalModelingAgent/MathematicalModelingAgent">Demo</a>
-        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 559 stars</span>
+        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 606 stars</span>
       </div>
     </div>
   </article>
