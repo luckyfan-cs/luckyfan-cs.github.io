@@ -18,6 +18,8 @@ I am Fan LIU, a graduate student at HKUST(GZ). My research focuses on LLM agents
 
 I have published 10+ papers at top-tier venues, including ICLR, NeurIPS, KDD, WWW, ECML PKDD, ICMLW, and TFS, with over 1,000 citations overall. For more details, please refer to [[Google Scholar](https://scholar.google.com/citations?hl=en&user=w_T6VSsAAAAJ&view_op=list_works&gmla=AJsN-F6dCU5T7zqsidfpbWQ8dM-gnrcr_B7HR2Al0KB-Da0O4rcUVdg50B8s5frd_M45ZL6BePe8-CSTML8ov3F66_cbUYBgM835uoGWaepf8tveijtCUcc)]. If you are interested in my research, feel free to reach out for discussions, collaborations, internship opportunities, or related inquiries.  
 
+We recently organized our data agent research into [DataNova](https://github.com/usail-hkust/DataNova), a family of autonomous and self-evolving data-science agents for real-world mathematical modeling, multimodal scientific discovery, and end-to-end data analysis.
+
 <span style="color:red;"><strong>I am on the job market for postdoctoral and industry positions.</strong></span>
 
 Email: liufanuestc AT DOT com
@@ -37,6 +39,23 @@ A short bilingual blog post introducing the definition, use cases, differences f
 Selected Works
 ======
 <div class="featured-publications">
+  <article class="featured-publication-card">
+    <a class="featured-publication-card__media" href="https://github.com/usail-hkust/DataNova">
+      <img src="{{ site.baseurl }}/assets/papers/datanova.png" alt="DataNova project overview" loading="lazy">
+    </a>
+    <div class="featured-publication-card__body">
+      <div class="featured-publication-card__meta">Data Agent Project Family</div>
+      <h3 class="featured-publication-card__title"><a href="https://github.com/usail-hkust/DataNova">DataNova</a></h3>
+      <p class="featured-publication-card__description">DataNova collects our recent work on autonomous and self-evolving data-science agents, including MM-Agent, multimodal scientific discovery, EvoDS, foundation models for scientific discovery, and DS-Lighting.</p>
+      <div class="featured-publication-card__links">
+        <a class="featured-publication-card__link" href="https://github.com/usail-hkust/DataNova">Project</a>
+        <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">MM-Agent</a>
+        <a class="featured-publication-card__link" href="https://openreview.net/forum?id=kZHSvETWdi">Multimodal Discovery</a>
+        <a class="featured-publication-card__link" href="https://arxiv.org/abs/2606.03841">EvoDS</a>
+      </div>
+    </div>
+  </article>
+
   <article class="featured-publication-card">
     <a class="featured-publication-card__media" href="https://openreview.net/forum?id=o8n5oNDsiq">
       <img src="{{ site.baseurl }}/assets/papers/MM-agent.png" alt="MM-Agent teaser image" loading="lazy">
