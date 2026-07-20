@@ -46,12 +46,13 @@ Selected Works
     <div class="featured-publication-card__body">
       <div class="featured-publication-card__meta">Data Agent Project Family</div>
       <h3 class="featured-publication-card__title"><a href="https://github.com/usail-hkust/DataNova">DataNova</a></h3>
-      <p class="featured-publication-card__description">DataNova collects our recent work on autonomous and self-evolving data-science agents, including MM-Agent, multimodal scientific discovery, EvoDS, foundation models for scientific discovery, and DS-Lighting.</p>
+      <p class="featured-publication-card__description">DataNova collects our recent work on autonomous and self-evolving data-science agents, including MM-Agent, multimodal scientific discovery, EvoDS, DSWorld, foundation models for scientific discovery, and DS-Lighting.</p>
       <div class="featured-publication-card__links">
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/DataNova">Project</a>
         <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">MM-Agent</a>
         <a class="featured-publication-card__link" href="https://openreview.net/forum?id=kZHSvETWdi">Multimodal Discovery</a>
         <a class="featured-publication-card__link" href="https://arxiv.org/abs/2606.03841">EvoDS</a>
+        <a class="featured-publication-card__link" href="https://arxiv.org/abs/2607.15901">DSWorld</a>
       </div>
     </div>
   </article>
@@ -98,6 +99,7 @@ Recent Works
   <summary><strong>Expand / collapse list</strong></summary>
   <p><em>(* Equal contribution)</em></p>
   <ul>
+    <li>[Arxiv] Zherui Yang, <strong>Fan Liu</strong>, Hao Liu*. DSWorld: A Data Science World Model for Efficient Autonomous Agents. arXiv, 2026. <a href="https://arxiv.org/abs/2607.15901">[arXiv]</a>, <a href="https://arxiv.org/pdf/2607.15901v1">[pdf]</a>, <a href="https://anonymous.4open.science/r/DSWorld">[Code]</a></li>
     <li>[KDD] Zherui Yang, <strong>Fan Liu</strong>, Yansong Ning and Hao Liu*. EvoDS: Self-Evolving Autonomous Data Science Agent with Capability Learning and Context Management. In Proceedings of the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining, Jeju, South Korea, 2026. <a href="https://arxiv.org/abs/2606.03841">[arXiv]</a>, <a href="https://github.com/usail-hkust/EvoDS">[Code]</a> <strong>(CCF A)</strong></li>
     <li>[ICLR] <strong>Fan Liu</strong>, Xiaozhao Zeng and Hao Liu. Towards Multimodal Data-Driven Scientific Discovery Powered by LLM Agents. In Proceedings of the Fourteenth International Conference on Learning Representations, Rio de Janeiro, Brazil, 2026. <a href="https://openreview.net/forum?id=kZHSvETWdi">[OpenReview]</a></li>
     <li>[NeurIPS] <strong>Fan Liu</strong>, Jindong Han, Tengfei Lyu, Weijia Zhang, Zhe-Rui Yang, Lu Dai, Cancheng Liu, Hao Liu, <em>Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition</em>, NeurIPS, 2025. <a href="https://www.researchgate.net/publication/395899358_Foundation_Models_for_Scientific_Discovery_From_Paradigm_Enhancement_to_Paradigm_Transition">[pdf]</a>, <a href="https://github.com/usail-hkust/Awesome-Foundation-Models-for-Scientific-Discovery">[Project]</a> <strong>(CCF A)</strong> <span style="color:red;">Position, Acceptance rate~6%</span></li>
