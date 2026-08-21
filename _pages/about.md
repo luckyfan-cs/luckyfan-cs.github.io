@@ -3,6 +3,7 @@ permalink: /
 title: "Bio"
 excerpt: "About me"
 author_profile: true
+github_stars: true
 redirect_from: 
   - /about/
   - /about.html
@@ -69,7 +70,7 @@ Selected Works
         <a class="featured-publication-card__link" href="https://openreview.net/forum?id=o8n5oNDsiq">Paper</a>
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/LLM-MM-Agent">Code</a>
         <a class="featured-publication-card__link" href="https://huggingface.co/spaces/MathematicalModelingAgent/MathematicalModelingAgent">Demo</a>
-        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 606 stars</span>
+        <span class="featured-publication-card__stat" data-github-stars="usail-hkust/LLM-MM-Agent" aria-label="652 GitHub stars for MM-Agent"><i class="fas fa-star" aria-hidden="true"></i> <span data-github-star-count>652</span> stars</span>
       </div>
     </div>
   </article>
@@ -85,7 +86,7 @@ Selected Works
       <div class="featured-publication-card__links">
         <a class="featured-publication-card__link" href="https://github.com/usail-hkust/dslighting">Code</a>
         <a class="featured-publication-card__link" href="https://luckyfan-cs.github.io/dslighting-web/api/getting-started.html">Docs</a>
-        <span class="featured-publication-card__stat"><i class="fas fa-star" aria-hidden="true"></i> 48 stars</span>
+        <span class="featured-publication-card__stat" data-github-stars="usail-hkust/dslighting" aria-label="53 GitHub stars for DSLighting"><i class="fas fa-star" aria-hidden="true"></i> <span data-github-star-count>53</span> stars</span>
       </div>
     </div>
   </article>
