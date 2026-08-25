@@ -10,40 +10,179 @@ tags:
 ---
 
 <style>
+.page__title {
+  margin-bottom: 0.7rem;
+  color: #222;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 2.35rem;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+}
+.page__content {
+  max-width: 840px;
+}
 .lang-toggle {
   display: inline-flex;
   gap: 6px;
-  margin: 0.5rem 0 1.25rem;
+  position: sticky;
+  top: 0.75rem;
+  z-index: 10;
+  margin: 0.75rem 0 1.4rem;
+  padding: 5px;
+  border: 1px solid #dde3e7;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 4px 16px rgba(31, 52, 66, 0.08);
+  backdrop-filter: blur(8px);
 }
 .lang-toggle button {
-  border: 1px solid #b8b8b8;
-  background: #fff;
-  color: #333;
-  padding: 0.3rem 0.75rem;
-  border-radius: 4px;
+  border: 0;
+  background: transparent;
+  color: #5e6870;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
   cursor: pointer;
   font-size: 0.9rem;
 }
 .lang-toggle button.active {
-  background: #333;
+  background: #2f6f97;
   color: #fff;
-  border-color: #333;
+  box-shadow: 0 2px 8px rgba(47, 111, 151, 0.22);
 }
 .lang-panel[hidden] {
   display: none;
 }
+.rsi-post {
+  color: #2b2b2b;
+  font-size: 1.02rem;
+  line-height: 1.82;
+}
+.rsi-post p {
+  margin: 0 0 1.15rem;
+}
+.rsi-post h2 {
+  margin: 3.25rem 0 1.1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #e3e8eb;
+  color: #242424;
+  font-size: 1.72rem;
+  line-height: 1.35;
+}
+.rsi-post h3 {
+  margin: 2.15rem 0 0.75rem;
+  color: #2d4f63;
+  font-size: 1.25rem;
+}
+.rsi-dek {
+  margin: 0 0 2.25rem !important;
+  padding: 1.2rem 1.4rem;
+  border-left: 4px solid #4a8cb5;
+  border-radius: 5px;
+  background: #edf5fa;
+  color: #263f4e;
+  font-size: 1.13rem;
+  line-height: 1.75;
+}
+.rsi-post blockquote {
+  margin: 1.8rem 0;
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  border-left: 4px solid #8db6cf;
+  color: #43525b;
+  font-size: 1.12rem;
+  font-style: normal;
+}
+.rsi-flow {
+  margin: 1.65rem 0;
+  padding: 1.05rem 1.2rem;
+  border: 1px solid #d8e6ee;
+  border-radius: 5px;
+  background: #f8fbfd;
+  color: #294a5d;
+  text-align: center;
+  font-family: Georgia, "Noto Serif SC", serif;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+.rsi-table-wrap {
+  width: 100%;
+  margin: 1.4rem 0 2rem;
+  overflow-x: auto;
+  border: 1px solid #dfe4e7;
+  border-radius: 7px;
+  box-shadow: 0 6px 18px rgba(31, 52, 66, 0.05);
+}
+.rsi-post table {
+  width: 100%;
+  min-width: 820px;
+  margin: 0;
+  border: 0;
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+.rsi-post th,
+.rsi-post td {
+  padding: 0.78rem 0.72rem;
+  border-color: #e0e5e8;
+  vertical-align: top;
+}
+.rsi-post th {
+  background: #f1f5f7;
+  color: #263f4e;
+}
+.rsi-post td:first-child {
+  width: 118px;
+  color: #315f79;
+  font-weight: 700;
+}
+.rsi-triad {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1.5rem 0 1.8rem;
+}
+.rsi-triad > div {
+  padding: 1rem;
+  border: 1px solid #e1e7ea;
+  border-radius: 7px;
+  background: #fbfcfd;
+  box-shadow: 0 5px 14px rgba(31, 52, 66, 0.04);
+}
+.rsi-triad strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #2b6f9c;
+}
+.rsi-refs {
+  font-size: 0.88rem;
+  line-height: 1.62;
+}
+.rsi-refs li {
+  margin-bottom: 0.52rem;
+}
+@media (max-width: 760px) {
+  .page__title {
+    font-size: 1.9rem;
+  }
+  .rsi-post {
+    font-size: 1rem;
+  }
+  .rsi-post h2 {
+    font-size: 1.48rem;
+  }
+  .rsi-triad {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
-<div class="lang-toggle" aria-label="Language switcher">
+<div class="lang-toggle" aria-label="Language switcher" data-page-title-zh="AI Data Scientist 的下一步：从自动化工作流到可验证的递归自我改进" data-page-title-en="What Comes Next for AI Data Scientists: From Automated Workflows to Verifiable Recursive Self-Improvement">
   <button type="button" class="active" data-lang-target="zh">中文</button>
   <button type="button" data-lang-target="en">English</button>
 </div>
 
-<div class="lang-panel" data-lang-panel="zh" markdown="1">
+<div class="lang-panel rsi-post" data-lang-panel="zh" markdown="1">
 
-## AI Data Scientist 的下一步：从自动化工作流到可验证的递归自我改进
-
-AI Data Scientist 不应该只被理解成一类替代企业数据工作流的垂直 Agent（如 Text-to-SQL、Data Analysis、MLE Agent 等）。它可能是提升通用 LLM 智力的下一个关键试验场：任务足够复杂、反馈相对可验证、场景又足够开放，可以把“复杂交互能力”推进到“提出问题、完成研究、改进研究方法”的闭环能力。
+<p class="rsi-dek">AI Data Scientist 不应该只被理解成一类替代企业数据工作流的垂直 Agent（如 Text-to-SQL、Data Analysis、MLE Agent 等）。它可能是提升通用 LLM 智力的下一个关键试验场：任务足够复杂、反馈相对可验证、场景又足够开放，可以把“复杂交互能力”推进到“提出问题、完成研究、改进研究方法”的闭环能力。</p>
 
 过去两年，AI Data Scientist 的主线进展是把数据分析流程逐步自动化：读取数据、探索、建模、调参、运行实验、生成报告。系统越来越像一个高效的数据科学工程师，但还不像一个真正的科学家。原因并不在于它不会写代码，而在于它通常只是在优化一个由人类预先定义好的问题。
 
@@ -65,10 +204,7 @@ AI Data Scientist 不应该只被理解成一类替代企业数据工作流的�
 
 通用 LLM 提供语言、代码、推理和知识先验；AI Data Scientist 则把这些能力放入一个长期运行、需要调用工具并接受现实反馈的环境。二者不是“基础模型与一个普通下游应用”的单向关系，更可能形成双向循环：
 
-```text
-通用 LLM → 数据科学 Agent → 可验证研究轨迹
-         → 训练数据 / evaluator / curriculum → 更强的通用 LLM
-```
+<div class="rsi-flow">通用 LLM → 数据科学 Agent → 可验证研究轨迹<br>→ 训练数据 / evaluator / curriculum → 更强的通用 LLM</div>
 
 为什么数据科学可能成为提升 LLM 智力的关键场景？因为它同时具备四种难得的性质：
 
@@ -85,6 +221,8 @@ AI Data Scientist 不应该只被理解成一类替代企业数据工作流的�
 
 目前还没有一条清晰且得到共识的技术路线，大家仍处于探索阶段。相关工作并不是从“普通 Agent”突然跳到完整 RSI；下面的五层是一个潜在的研究路径。
 
+<div class="rsi-table-wrap" markdown="1">
+
 | 层级 | 代表工作 | 系统改变了什么 | 距离 RSI 的差距 |
 | --- | --- | --- | --- |
 | L1：任务内自我改进 | [AIDE](https://arxiv.org/abs/2502.13138)、[R&D-Agent](https://arxiv.org/abs/2505.14738)、[AlphaEvolve](https://arxiv.org/abs/2506.13131) | 搜索、修改代码和实验方案 | 目标、任务与 evaluator 由人给定；改进通常不跨任务沉淀 |
@@ -92,6 +230,8 @@ AI Data Scientist 不应该只被理解成一类替代企业数据工作流的�
 | L3：持久学习 | [SEAL](https://arxiv.org/abs/2506.10943)、[ML-Agent](https://arxiv.org/abs/2505.23723)、[Pioneer Agent](https://arxiv.org/abs/2604.09791)、[Q-Evolve](https://arxiv.org/abs/2606.07367)、[PAST-Bench](https://huggingface.co/papers/2608.04003) | 更新权重、数据、策略、技能或过程奖励 | 通常局限于特定分布，容易遗忘、数据污染或奖励过拟合 |
 | L4：自我设计 | [ADAS](https://arxiv.org/abs/2408.08435)、[Gödel Agent](https://huggingface.co/papers/2410.04444)、[Darwin Gödel Machine](https://huggingface.co/papers/2505.22954)、[Recursive Harness Self-Improvement](https://huggingface.co/papers/2607.15524)、[MetaSkill-Evolve](https://huggingface.co/papers/2607.05297) | 修改 prompt、工具、控制流、技能文件乃至自身代码 | 基础模型、总体目标和验收 benchmark 多数仍固定 |
 | L5：递归研究系统 | [AREX](https://huggingface.co/papers/2607.21461)、[Frontis-MA1 / OpenMLE](https://huggingface.co/papers/2607.28568)、[Red Queen Gödel Machine](https://huggingface.co/papers/2606.26294)、[2026 RSI Survey](https://huggingface.co/papers/2607.07663) | 递归审计研究状态、发起下一轮研究，并开始让研究者与 evaluator 共同变化 | 尚未实现问题、研究者与 evaluator 在开放世界中的可靠共同进化 |
+
+</div>
 
 这条路径说明，研究前沿已经从“让模型反思答案”推进到“让 Agent 修改自身研究流程”。但绝大多数成果仍然依赖固定 benchmark 来确认进步。一旦 evaluator 也开放，系统就会面临最根本的问题：它是在变聪明，还是只是在学会赢过自己的裁判？
 
@@ -133,9 +273,11 @@ LLM 很擅长生成大量听起来新颖的研究想法，但科学价值不等�
 
 如果只优化研究 Agent，系统最终会受制于固定问题与固定 evaluator。更完整的结构应该包含三个相互制衡的角色：
 
-1. **Problem Generator：** 发现异常与知识缺口，提出可检验问题，并为问题分配优先级。
-2. **Researcher：** 检索证据、处理数据、设计实验、运行代码、更新假设并形成可复现产物。
-3. **Evaluator：** 检查执行、统计、因果和领域有效性，生成反例，并决定改进是否进入长期记忆。
+<div class="rsi-triad">
+  <div><strong>Problem Generator</strong>发现异常与知识缺口，提出可检验问题，并为问题分配优先级。</div>
+  <div><strong>Researcher</strong>检索证据、处理数据、设计实验、运行代码、更新假设并形成可复现产物。</div>
+  <div><strong>Evaluator</strong>检查执行、统计、因果和领域有效性，生成反例，并决定改进是否进入长期记忆。</div>
+</div>
 
 这里的“共同进化”不是三组 Agent 互相点赞，而是三种能力在外部证据约束下相互制造压力：
 
@@ -172,6 +314,8 @@ LLM 很擅长生成大量听起来新颖的研究想法，但科学价值不等�
 
 ## References
 
+<div class="rsi-refs" markdown="1">
+
 1. [AIDE](https://arxiv.org/abs/2502.13138) · [Hugging Face Papers](https://huggingface.co/papers/2502.13138)
 2. [R&D-Agent](https://arxiv.org/abs/2505.14738) · [Hugging Face Papers](https://huggingface.co/papers/2505.14738)
 3. [AlphaEvolve](https://arxiv.org/abs/2506.13131) · [Hugging Face Papers](https://huggingface.co/papers/2506.13131)
@@ -199,11 +343,11 @@ LLM 很擅长生成大量听起来新颖的研究想法，但科学价值不等�
 
 </div>
 
-<div class="lang-panel" data-lang-panel="en" hidden markdown="1">
+</div>
 
-## What Comes Next for AI Data Scientists: From Automated Workflows to Verifiable Recursive Self-Improvement
+<div class="lang-panel rsi-post" data-lang-panel="en" hidden markdown="1">
 
-AI Data Scientists should not be understood merely as vertical agents that replace enterprise data workflows such as Text-to-SQL, data analysis, and MLE agents. They may become a key testbed for the next leap in general LLM intelligence: the tasks are sufficiently complex, the feedback is relatively verifiable, and the environment is open enough to advance “complex interaction capabilities” toward a closed loop that can pose questions, conduct research, and improve its own research methods.
+<p class="rsi-dek">AI Data Scientists should not be understood merely as vertical agents that replace enterprise data workflows such as Text-to-SQL, data analysis, and MLE agents. They may become a key testbed for the next leap in general LLM intelligence: the tasks are sufficiently complex, the feedback is relatively verifiable, and the environment is open enough to advance “complex interaction capabilities” toward a closed loop that can pose questions, conduct research, and improve its own research methods.</p>
 
 Over the past two years, the main direction of progress in AI Data Scientists has been the gradual automation of the data-science workflow: reading data, exploring it, building models, tuning parameters, running experiments, and generating reports. These systems increasingly resemble efficient data-science engineers, but they still do not resemble scientists. The limitation is not that they cannot write code. It is that they usually optimize a problem already defined by humans.
 
@@ -225,10 +369,7 @@ Such systems solve the problem of “how to perform a given task better.” Scie
 
 General LLMs provide language, coding, reasoning, and knowledge priors. AI Data Scientists place those capabilities in a long-running environment that requires tool use and accepts feedback from data and execution. The relationship is not merely a one-way path from a foundation model to an ordinary downstream application. It may form a two-way loop:
 
-```text
-General LLM → Data-Science Agent → Verifiable Research Trajectories
-            → Training Data / Evaluators / Curricula → Stronger General LLM
-```
+<div class="rsi-flow">General LLM → Data-Science Agent → Verifiable Research Trajectories<br>→ Training Data / Evaluators / Curricula → Stronger General LLM</div>
 
 Why might data science become a key environment for improving LLM intelligence? It combines four uncommon properties:
 
@@ -245,6 +386,8 @@ The significance of AI Data Scientists may therefore extend beyond helping compa
 
 There is not yet a clear, widely accepted technical roadmap, and the community is still exploring. Related work is not jumping directly from an “ordinary agent” to complete RSI. The following five levels describe one potential research path.
 
+<div class="rsi-table-wrap" markdown="1">
+
 | Level | Representative Work | What the System Changes | Remaining Gap to RSI |
 | --- | --- | --- | --- |
 | L1: Within-task self-improvement | [AIDE](https://arxiv.org/abs/2502.13138), [R&D-Agent](https://arxiv.org/abs/2505.14738), [AlphaEvolve](https://arxiv.org/abs/2506.13131) | Searches and modifies code and experimental plans | Humans still specify the objective, task, and evaluator; improvements usually do not persist across tasks |
@@ -252,6 +395,8 @@ There is not yet a clear, widely accepted technical roadmap, and the community i
 | L3: Persistent learning | [SEAL](https://arxiv.org/abs/2506.10943), [ML-Agent](https://arxiv.org/abs/2505.23723), [Pioneer Agent](https://arxiv.org/abs/2604.09791), [Q-Evolve](https://arxiv.org/abs/2606.07367), [PAST-Bench](https://huggingface.co/papers/2608.04003) | Updates weights, data, policies, skills, or process rewards | Often limited to particular distributions and vulnerable to forgetting, data contamination, or reward overfitting |
 | L4: Self-design | [ADAS](https://arxiv.org/abs/2408.08435), [Gödel Agent](https://huggingface.co/papers/2410.04444), [Darwin Gödel Machine](https://huggingface.co/papers/2505.22954), [Recursive Harness Self-Improvement](https://huggingface.co/papers/2607.15524), [MetaSkill-Evolve](https://huggingface.co/papers/2607.05297) | Modifies prompts, tools, control flow, skill files, or its own code | The foundation model, overall objective, and acceptance benchmark usually remain fixed |
 | L5: Recursive research systems | [AREX](https://huggingface.co/papers/2607.21461), [Frontis-MA1 / OpenMLE](https://huggingface.co/papers/2607.28568), [Red Queen Gödel Machine](https://huggingface.co/papers/2606.26294), [2026 RSI Survey](https://huggingface.co/papers/2607.07663) | Recursively audits research state, launches the next research cycle, and begins to evolve both researcher and evaluator | Reliable co-evolution of problems, researchers, and evaluators in an open world has not yet been achieved |
+
+</div>
 
 This path suggests that the frontier has moved from “making the model reflect on an answer” toward “allowing the agent to modify its own research process.” Yet most results still rely on fixed benchmarks to certify improvement. Once the evaluator also becomes open to change, the system faces a more fundamental question: is it becoming more intelligent, or merely learning how to defeat its own judge?
 
@@ -293,9 +438,11 @@ The [Red Queen Gödel Machine](https://huggingface.co/papers/2606.26294) brings 
 
 If we optimize only the research agent, the system will eventually be constrained by fixed problems and a fixed evaluator. A more complete structure contains three roles that check and pressure one another:
 
-1. **Problem Generator:** Finds anomalies and knowledge gaps, proposes testable questions, and prioritizes them.
-2. **Researcher:** Retrieves evidence, processes data, designs experiments, runs code, updates hypotheses, and produces reproducible artifacts.
-3. **Evaluator:** Checks execution, statistical, causal, and domain validity; generates counterexamples; and decides whether an improvement enters persistent memory.
+<div class="rsi-triad">
+  <div><strong>Problem Generator</strong>Finds anomalies and knowledge gaps, proposes testable questions, and prioritizes them.</div>
+  <div><strong>Researcher</strong>Retrieves evidence, processes data, designs experiments, runs code, updates hypotheses, and produces reproducible artifacts.</div>
+  <div><strong>Evaluator</strong>Checks execution, statistical, causal, and domain validity; generates counterexamples; and decides whether an improvement enters persistent memory.</div>
+</div>
 
 “Co-evolution” does not mean three groups of agents endorsing one another. It means that the three capabilities create pressure on one another under constraints from external evidence:
 
@@ -332,6 +479,8 @@ These three potential domains provide complementary test environments. AI4AI emp
 
 ## References
 
+<div class="rsi-refs" markdown="1">
+
 1. [AIDE](https://arxiv.org/abs/2502.13138) · [Hugging Face Papers](https://huggingface.co/papers/2502.13138)
 2. [R&D-Agent](https://arxiv.org/abs/2505.14738) · [Hugging Face Papers](https://huggingface.co/papers/2505.14738)
 3. [AlphaEvolve](https://arxiv.org/abs/2506.13131) · [Hugging Face Papers](https://huggingface.co/papers/2506.13131)
@@ -359,10 +508,14 @@ These three potential domains provide complementary test environments. AI4AI emp
 
 </div>
 
+</div>
+
 <script>
 (function () {
   var buttons = document.querySelectorAll('[data-lang-target]');
   var panels = document.querySelectorAll('[data-lang-panel]');
+  var toggle = document.querySelector('.lang-toggle');
+  var pageTitle = document.querySelector('.page__title');
   function showLanguage(lang) {
     panels.forEach(function (panel) {
       panel.hidden = panel.getAttribute('data-lang-panel') !== lang;
@@ -370,6 +523,9 @@ These three potential domains provide complementary test environments. AI4AI emp
     buttons.forEach(function (button) {
       button.classList.toggle('active', button.getAttribute('data-lang-target') === lang);
     });
+    if (toggle && pageTitle) {
+      pageTitle.textContent = toggle.getAttribute('data-page-title-' + lang);
+    }
   }
   buttons.forEach(function (button) {
     button.addEventListener('click', function () {
