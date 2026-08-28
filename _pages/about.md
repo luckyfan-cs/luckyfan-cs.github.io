@@ -142,33 +142,6 @@ redirect_from:
   font-size: 0.88rem;
   line-height: 1.55;
 }
-.home-citation {
-  grid-column: 1 / -1;
-  margin-top: 0.15rem;
-  padding-top: 0.7rem;
-  border-top: 1px solid #d8e4ea;
-}
-.home-citation summary {
-  width: fit-content;
-  cursor: pointer;
-  color: #2d678b;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-.home-citation p {
-  margin: 0.65rem 0 !important;
-  font-size: 0.8rem;
-}
-.home-citation pre {
-  max-height: 340px;
-  margin: 0.7rem 0 0;
-  overflow: auto;
-  border: 1px solid #dce5ea;
-  border-radius: 6px;
-  background: #fff;
-  font-size: 0.7rem;
-  line-height: 1.45;
-}
 .home-stats {
   display: flex;
   flex-wrap: wrap;
@@ -243,7 +216,6 @@ redirect_from:
     <p>A family of autonomous and self-evolving data-science agents for mathematical modeling, multimodal scientific discovery, and end-to-end data analysis.</p>
   </div>
   <a href="https://github.com/usail-hkust/DataNova" class="btn btn--primary">Explore DataNova</a>
-  {% include datanova-citation.html %}
 </div>
 
 <div class="home-writing">
@@ -252,17 +224,6 @@ redirect_from:
     <p>A cited historical essay on problem finding, problem solving, innovation, verification, and the boundary of agentic data science.</p>
   </div>
   <a href="/posts/2026/08/what-is-an-agentic-data-scientist/" class="btn">Read</a>
-  <details class="home-citation">
-    <summary>Citation · BibTeX</summary>
-    <pre><code class="language-bibtex">@misc{liu2026agenticdatascientist,
-  author       = {Liu, Fan},
-  title        = {What Is an Agentic Data Scientist? From Kepler's Eight Arcminutes to the Validation Bottleneck},
-  year         = {2026},
-  month        = aug,
-  howpublished = {Personal blog},
-  url          = {https://luckyfan-cs.github.io/posts/2026/08/what-is-an-agentic-data-scientist/}
-}</code></pre>
-  </details>
 </div>
 
 
