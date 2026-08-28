@@ -106,7 +106,6 @@ tags:
 </style>
 
 <div class="pdf-book-actions">
-  <p>以下 5 页按书稿 PDF 原版呈现，点击任一页面可打开对应的矢量 PDF 页面。</p>
   <a class="btn btn--primary" href="/assets/files/agentic-data-scientist-ch01-section01.pdf" target="_blank" rel="noopener">打开原版 PDF</a>
 </div>
 
