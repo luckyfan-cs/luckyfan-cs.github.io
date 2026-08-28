@@ -159,6 +159,22 @@ tags:
 .rsi-refs li {
   margin-bottom: 0.52rem;
 }
+.rsi-citation {
+  margin: 2.1rem 0 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid #dce4e8;
+  border-radius: 7px;
+  background: #fafcfd;
+}
+.rsi-citation summary {
+  cursor: pointer;
+  color: #2b6589;
+  font-weight: 700;
+}
+.rsi-citation .highlighter-rouge,
+.rsi-citation pre {
+  margin-bottom: 0;
+}
 @media (max-width: 760px) {
   .page__title {
     font-size: 1.9rem;
@@ -509,6 +525,23 @@ These three potential domains provide complementary test environments. AI4AI emp
 </div>
 
 </div>
+
+<details class="rsi-citation" markdown="1">
+  <summary>Cite this article · 引用本文（BibTeX）</summary>
+
+```bibtex
+@misc{liu2026aidatascientistrsi,
+  author       = {Liu, Fan},
+  title        = {What Comes Next for AI Data Scientists: From Automated Workflows to Verifiable Recursive Self-Improvement},
+  year         = {2026},
+  month        = aug,
+  howpublished = {Personal blog},
+  url          = {https://luckyfan-cs.github.io/posts/2026/08/ai-data-scientist-recursive-self-improvement/},
+  note         = {Bilingual essay}
+}
+```
+
+</details>
 
 <script>
 (function () {
